@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact JK Overseas for product enquiries, quotations, technical support, or export orders. Located in Moshi, Pune, Maharashtra, India." />
+  <title>Contact Us | JK Overseas — Precision Industrial Tools</title>
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23C9962E'/><text x='16' y='22' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='14' fill='white'>JK</text></svg>" />
+  <style>
+    /* Map placeholder with pin icon */
+    .map-inner {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      background: repeating-linear-gradient(
+        0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 40px
+      ),
+      repeating-linear-gradient(
+        90deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 40px
+      );
+    }
+    .map-inner svg { color: var(--clr-accent); }
+    .map-inner span { font-size: var(--fs-sm); color: rgba(255,255,255,0.4); }
+    .map-inner a {
+      font-size: var(--fs-xs);
+      color: var(--clr-accent);
+      text-decoration: underline;
+      font-weight: var(--fw-medium);
+    }
+    .office-hours { margin-top: var(--sp-8); }
+    .office-hours-title {
+      font-size: var(--fs-xs);
+      font-weight: var(--fw-semibold);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--clr-accent);
+      margin-bottom: var(--sp-4);
+    }
+    .hours-list { display: flex; flex-direction: column; gap: var(--sp-2); }
+    .hours-item {
+      display: flex;
+      justify-content: space-between;
+      font-size: var(--fs-sm);
+      color: rgba(255,255,255,0.6);
+      padding-bottom: var(--sp-2);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .hours-item:last-child { border-bottom: none; }
+    .hours-day { color: rgba(255,255,255,0.45); }
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--sp-5);
+      margin-top: var(--sp-8);
+    }
+    .faq-item {
+      background: var(--clr-white);
+      border: 1px solid var(--clr-gray-100);
+      border-radius: var(--r-xl);
+      padding: var(--sp-6);
+    }
+    .faq-q {
+      font-family: var(--font-display);
+      font-size: var(--fs-xl);
+      font-weight: var(--fw-bold);
+      color: var(--text-primary);
+      margin-bottom: var(--sp-3);
+    }
+    .faq-a { font-size: var(--fs-sm); color: var(--text-muted); line-height: 1.7; }
+    @media (max-width: 768px) { .faq-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <header class="site-header page-header" id="siteHeader">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="nav-logo" aria-label="JK Overseas Home">
+          <span class="logo-mark" aria-hidden="true">JK</span>
+          <div class="logo-text"><span class="logo-name">JK Overseas</span><span class="logo-tagline">Precision Industrial Tools</span></div>
+        </a>
+        <ul class="nav-links" id="navLinks" role="menubar">
+          <li role="none"><a href="index.html"      class="nav-link" role="menuitem">Home</a></li>
+          <li role="none"><a href="about.html"      class="nav-link" role="menuitem">About</a></li>
+          <li role="none"><a href="products.html"   class="nav-link" role="menuitem">Products</a></li>
+          <li role="none"><a href="industries.html" class="nav-link" role="menuitem">Industries</a></li>
+          <li role="none"><a href="services.html"   class="nav-link" role="menuitem">Services</a></li>
+          <li role="none"><a href="downloads.html"  class="nav-link" role="menuitem">Downloads</a></li>
+          <li role="none"><a href="contact.html"    class="nav-link active" role="menuitem">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-accent btn-sm">Get a Quote</a>
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <div class="page-hero-content fade-in">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a><span class="breadcrumb-sep" aria-hidden="true">›</span><span aria-current="page">Contact</span>
+          </nav>
+          <p class="page-hero-eyebrow">Get in Touch</p>
+          <h1 class="page-hero-title" id="page-title">Talk to Our<br />Engineering Team</h1>
+          <p class="page-hero-desc">Product enquiries, quotations, technical questions, or export orders — we respond within one business day.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 class="section-title" id="contact-heading" style="display:none;">Contact JK Overseas</h2>
+        <div class="contact-layout">
+
+          <!-- Info Card -->
+          <aside class="contact-info-card fade-in" aria-label="Contact information">
+            <h2 class="contact-info-title">Contact Information</h2>
+            <p class="contact-info-desc">Our team is available Monday to Saturday. For urgent export enquiries, email us and mark the subject line URGENT.</p>
+
+            <div class="contact-details">
+              <div class="contact-detail">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <p class="contact-detail-label">Registered Office</p>
+                  <p class="contact-detail-value">Plot No. 12, Industrial Estate<br />Moshi, Pune – 412105<br />Maharashtra, India</p>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                </div>
+                <div>
+                  <p class="contact-detail-label">Phone</p>
+                  <p class="contact-detail-value">+91 98765 43210 (Sales)<br />+91 98765 43211 (Export)</p>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <p class="contact-detail-label">Email</p>
+                  <p class="contact-detail-value">
+                    <a href="mailto:info@jkoverseas.com" style="color:rgba(255,255,255,0.85);">info@jkoverseas.com</a><br />
+                    <a href="mailto:export@jkoverseas.com" style="color:rgba(255,255,255,0.85);">export@jkoverseas.com</a>
+                  </p>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                </div>
+                <div>
+                  <p class="contact-detail-label">GST &amp; IEC</p>
+                  <p class="contact-detail-value">GSTIN: 27CYBPA6300E1Z4<br />IEC: AABCJ1234F</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Office Hours -->
+            <div class="office-hours">
+              <p class="office-hours-title">Office Hours</p>
+              <div class="hours-list">
+                <div class="hours-item">
+                  <span class="hours-day">Monday – Friday</span>
+                  <span>9:00 AM – 6:30 PM</span>
+                </div>
+                <div class="hours-item">
+                  <span class="hours-day">Saturday</span>
+                  <span>9:00 AM – 2:00 PM</span>
+                </div>
+                <div class="hours-item">
+                  <span class="hours-day">Sunday</span>
+                  <span>Closed</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="map-placeholder" role="img" aria-label="Location map for JK Overseas, Moshi, Pune">
+              <div class="map-inner">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>JK Overseas, Moshi, Pune</span>
+                <a href="https://maps.google.com/?q=Moshi+Pune+Maharashtra" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card fade-in fade-in-delay-2">
+            <h2 class="contact-form-title">Send Us a Message</h2>
+            <p class="contact-form-subtitle">Fill in your details and we'll get back to you within one business day.</p>
+
+            <!-- Success message -->
+            <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span class="feedback-text">Thank you! Your message has been sent. We'll respond within one business day.</span>
+            </div>
+
+            <!-- Error message -->
+            <div class="form-success" id="formError" role="alert" aria-live="polite"
+                 style="background:rgba(220,38,38,0.08);border-color:rgba(220,38,38,0.3);color:#B91C1C;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <span class="feedback-text">Something went wrong. Please try again or email us directly.</span>
+            </div>
+
+            <form id="contactForm" novalidate aria-label="Contact form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="firstName">First Name <span aria-hidden="true" style="color:#DC2626;">*</span></label>
+                  <input type="text" id="firstName" name="firstName" class="form-control" placeholder="Rajesh" required autocomplete="given-name" />
+                  <span class="field-error" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="lastName">Last Name <span aria-hidden="true" style="color:#DC2626;">*</span></label>
+                  <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Kumar" required autocomplete="family-name" />
+                  <span class="field-error" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="email">Email Address <span aria-hidden="true" style="color:#DC2626;">*</span></label>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="rajesh@company.com" required autocomplete="email" />
+                  <span class="field-error" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 98765 43210" autocomplete="tel" />
+                  <span class="field-error" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="company">Company / Organisation</label>
+                  <input type="text" id="company" name="company" class="form-control" placeholder="Acme Engineering Ltd." autocomplete="organization" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="country">Country</label>
+                  <select id="country" name="country" class="form-control" autocomplete="country-name">
+                    <option value="" disabled selected>Select country</option>
+                    <option value="IN">India</option>
+                    <option value="AE">United Arab Emirates</option>
+                    <option value="SA">Saudi Arabia</option>
+                    <option value="DE">Germany</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="US">United States</option>
+                    <option value="SG">Singapore</option>
+                    <option value="MY">Malaysia</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="ZA">South Africa</option>
+                    <option value="OTHER">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="enquiryType">Enquiry Type <span aria-hidden="true" style="color:#DC2626;">*</span></label>
+                <select id="enquiryType" name="enquiryType" class="form-control" required>
+                  <option value="" disabled selected>Select enquiry type</option>
+                  <option value="product-quote">Product Quotation</option>
+                  <option value="custom-tool">Custom Tool Design</option>
+                  <option value="technical">Technical Support</option>
+                  <option value="export">Export / Distributor Enquiry</option>
+                  <option value="catalog">Catalog Request</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="productInterest">Product / Application Details</label>
+                <input type="text" id="productInterest" name="productInterest" class="form-control" placeholder="e.g. 25mm boring bar for cast iron, H7 tolerance, 5000 pcs/year" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Message <span aria-hidden="true" style="color:#DC2626;">*</span></label>
+                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Describe your requirement, work material, quantities, and any other details that will help us give you an accurate quote..." required></textarea>
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group" style="display:flex;align-items:flex-start;gap:0.75rem;">
+                <input type="checkbox" id="newsletter" name="newsletter" style="margin-top:3px;width:16px;height:16px;accent-color:var(--clr-secondary);flex-shrink:0;" />
+                <label for="newsletter" style="font-size:var(--fs-sm);color:var(--text-muted);line-height:1.5;cursor:pointer;">Subscribe to JK Overseas product updates and engineering insights</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">
+                Send Message
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+
+              <p style="font-size:var(--fs-xs);color:var(--text-muted);text-align:center;margin-top:1rem;">
+                We respect your privacy. Your details will only be used to respond to this enquiry.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--light" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header section-header--center fade-in">
+          <p class="section-eyebrow">Common Questions</p>
+          <h2 class="section-title" id="faq-heading">Frequently Asked Questions</h2>
+          <p class="section-desc section-desc--center">Quick answers to the most common questions from our buyers.</p>
+        </div>
+        <div class="faq-grid stagger-children">
+          <div class="faq-item">
+            <h3 class="faq-q">What is your minimum order quantity?</h3>
+            <p class="faq-a">For standard catalog items, MOQ is typically 1 piece for domestic orders and 10 pieces for export orders. Custom tools have a minimum of 5 pieces for development batches. We are flexible — please ask.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-q">How quickly can you deliver?</h3>
+            <p class="faq-a">Standard in-stock items ship within 2–3 business days domestically, 5–7 days for international freight. Custom tools take 10–15 working days from drawing approval to despatch.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-q">Do you provide material test certificates?</h3>
+            <p class="faq-a">Yes. Material test certificates (MTCs) and dimensional inspection reports are available for all orders on request. They are included by default for export orders above a minimum value.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-q">Can you supply to my country?</h3>
+            <p class="faq-a">We currently export to 30+ countries. As a DGFT-registered exporter with IEC code, we can supply to most international destinations. Contact our export team for country-specific details.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-q">What payment terms do you accept?</h3>
+            <p class="faq-a">Domestic: NEFT/RTGS, cheque, or UPI. Export: T/T advance (50% + 50% before shipment) or irrevocable LC for large orders. Repeat buyers may be offered open account terms.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-q">Do you offer technical support after purchase?</h3>
+            <p class="faq-a">Yes — technical support is free for all customers. We assist with cutting parameters, troubleshooting, and failure analysis via email, phone, or video call. On-site support is available for major accounts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" aria-labelledby="contact-cta">
+      <div class="container">
+        <div class="cta-content fade-in">
+          <h2 class="cta-title" id="contact-cta">Still Have Questions?</h2>
+          <p class="cta-desc">Call us directly or download our product catalog to start your evaluation. Our team is always happy to help.</p>
+          <div class="cta-actions">
+            <a href="tel:+919876543210" class="btn btn-accent btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Call Us Now
+            </a>
+            <a href="downloads.html" class="btn btn-outline btn-lg">Download Catalog</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-main"><div class="container"><div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo footer-logo"><span class="logo-mark">JK</span><div class="logo-text"><span class="logo-name">JK Overseas</span><span class="logo-tagline">Precision Industrial Tools</span></div></a>
+        <p class="footer-desc">Trusted manufacturer and global exporter of precision boring bars, carbide tools, and industrial cutting solutions.</p>
+      </div>
+      <div class="footer-col"><h3 class="footer-heading">Quick Links</h3><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="industries.html">Industries</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h3 class="footer-heading">Products</h3><ul class="footer-links"><li><a href="products.html#boring-bars">Precision Boring Bars</a></li><li><a href="products.html#carbide-tools">Carbide Tipped Tools</a></li><li><a href="products.html#indexable">Indexable Insert Tools</a></li><li><a href="products.html#milling">Milling Cutters</a></li></ul></div>
+      <div class="footer-col"><h3 class="footer-heading">Contact Us</h3><ul class="footer-contact-list"><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Moshi, Pune – 412105, Maharashtra</span></li><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><span>+91 98765 43210</span></li><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>info@jkoverseas.com</span></li></ul><p class="footer-gst">GSTIN: 27CYBPA6300E1Z4</p></div>
+    </div></div></div>
+    <div class="container"><div class="footer-bottom"><p>&copy; 2024 JK Overseas. All Rights Reserved.</p><nav class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a></nav></div></div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

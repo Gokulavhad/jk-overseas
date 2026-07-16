@@ -1,0 +1,95 @@
+/* ============================================
+   JK OVERSEAS — CSS Design Tokens
+   ============================================ */
+:root {
+  /* Brand Colors */
+  --clr-primary:         #0D1B2A;
+  --clr-primary-light:   #152336;
+  --clr-secondary:       #1B4F8A;
+  --clr-secondary-light: #2563AB;
+  --clr-accent:          #C9962E;
+  --clr-accent-light:    #E8B84B;
+  --clr-accent-dark:     #A07820;
+
+  /* Neutrals */
+  --clr-white:    #FFFFFF;
+  --clr-light:    #F5F7FA;
+  --clr-gray-100: #EEF1F5;
+  --clr-gray-200: #E2E8F0;
+  --clr-gray-300: #CBD5E1;
+  --clr-gray-400: #94A3B8;
+  --clr-gray-500: #64748B;
+  --clr-gray-600: #475569;
+  --clr-gray-700: #334155;
+  --clr-gray-800: #1E293B;
+
+  /* Text */
+  --text-primary:   #0D1B2A;
+  --text-secondary: #334155;
+  --text-muted:     #64748B;
+  --text-inverse:   #FFFFFF;
+
+  /* Typography */
+  --font-display: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Font Weights */
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-semibold: 600;
+  --fw-bold:     700;
+  --fw-black:    800;
+
+  /* Font Sizes */
+  --fs-xs:   0.75rem;
+  --fs-sm:   0.875rem;
+  --fs-base: 1rem;
+  --fs-lg:   1.125rem;
+  --fs-xl:   1.25rem;
+  --fs-2xl:  1.5rem;
+  --fs-3xl:  1.875rem;
+  --fs-4xl:  2.25rem;
+  --fs-5xl:  3rem;
+  --fs-6xl:  3.75rem;
+  --fs-7xl:  4.5rem;
+
+  /* Spacing */
+  --sp-1:  0.25rem;
+  --sp-2:  0.5rem;
+  --sp-3:  0.75rem;
+  --sp-4:  1rem;
+  --sp-5:  1.25rem;
+  --sp-6:  1.5rem;
+  --sp-8:  2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+
+  /* Border Radius */
+  --r-sm:   4px;
+  --r-md:   8px;
+  --r-lg:   12px;
+  --r-xl:   16px;
+  --r-2xl:  24px;
+  --r-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm:     0 2px 8px rgba(13,27,42,0.08);
+  --shadow-md:     0 4px 16px rgba(13,27,42,0.1);
+  --shadow-lg:     0 8px 32px rgba(13,27,42,0.12);
+  --shadow-xl:     0 16px 48px rgba(13,27,42,0.15);
+  --shadow-accent: 0 8px 24px rgba(201,150,46,0.3);
+
+  /* Transitions */
+  --ease-fast: 150ms ease;
+  --ease-base: 250ms ease;
+  --ease-slow: 400ms ease;
+
+  /* Layout */
+  --container-max:     1280px;
+  --container-padding: clamp(1rem, 4vw, 2rem);
+  --nav-height:        72px;
+  --section-y:         clamp(3.5rem, 8vw, 6rem);
+}
